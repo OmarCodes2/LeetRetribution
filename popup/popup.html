@@ -1,6 +1,33 @@
 <html>
+    <link rel="stylesheet" href="popup.css">
     <body>
-        <h1>Testing</h1>
+        <h1>LeetRetribuition</h1>
+
+        <label>
+            <input type="checkbox" id="enablePunishment">
+            Enable Punishment
+        </label>
+
+        <h3>Time Limits</h3>
+        <div class="difficulty-settings">
+            <label>
+                Easy
+                <input type="number" id="timeEasy" min="1" value="10"> minutes
+            </label>
+            <label>
+                Medium
+                <input type="number" id="timeMedium" min="1" value="20"> minutes
+            </label>
+            <label>
+                Hard
+                <input type="number" id="timeHard" min="1" value="30"> minutes
+            </label>
+        </div>
+
+        <label>
+            <input type="checkbox" id="enableWarning"> Enable Warning Before Shock (Beep/Vibration)
+        </label>
+
         <script src="popup.js"></script>
     </body>
 </html>
