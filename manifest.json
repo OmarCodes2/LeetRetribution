@@ -1,0 +1,10 @@
+{
+    "name": "LeetRetrubution",
+    "description": "Solve your leetcode questions or face a punishment",
+    "version": "1.0",
+    "manifest_version" : 3,
+    "action": {
+        "default_popup": "config.html",
+        "default_icon": "logo.png"
+    }
+}
